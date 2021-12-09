@@ -1,0 +1,444 @@
+body{
+  background-image:linear-gradient(to bottom, maroon, maroon 190px, white 190px, white);
+  background-repeat: no-repeat;
+}
+
+.header {
+		font-style: oblique;
+		text-align: left;
+		font-size: 50px;
+		background-color: white;
+		padding: 1px 10px;
+		border-style: solid;
+		display: inline-block;
+		text-decoration: none;
+}
+
+.header2 {
+		font-style: oblique;
+		text-align: right;
+		font-size: 40px;
+		background-color: white;
+		padding: 3px 25px;
+		border-style: solid;
+		display: inline-block;
+		float:right;
+		text-decoration: none;
+}
+
+.SQL {
+	background-color:transparent;
+	 font-size: 25px;
+  font-weight: bold;
+  font-family:  Times New Roman;
+   text-decoration: none;
+}
+
+.login {
+	background-color:white;
+	 font-size: 25px;
+  font-weight: bold;
+  font-family:  Times New Roman;
+   text-decoration: none;
+}
+  
+.lform {   
+        border: 3px solid black;   
+		background-color: white;
+		width: 582px;  
+        overflow: hidden;  
+        margin: auto;  
+        box-sizing: border-box;
+        padding: 1px 20px;  
+        border-radius: 10px ;  
+        height: 350px;
+  }   
+  
+
+	
+input[type=text2], input[type=password] {   
+        width: 40%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px;   
+        box-sizing: border-box;   
+    }  
+	
+.firstp{
+	border-style: solid;
+	padding: 10px 18px;
+	text-align: left;
+  position: relative;
+  left: 25%;
+  width: 50%;
+  align-items: center;
+}
+
+.loginp{
+	
+}
+
+.secp{
+	border-style: solid;
+	padding: 10px 18px;
+	text-align: left;
+}
+
+.search-container {
+  float: left;
+  width: 100%;
+} 
+
+.searchBorder{
+  border-style: solid;
+  width: 100%;
+  padding: 1em;
+  overflow: scroll;
+}
+
+.Tag {
+	float: left;
+}
+
+#orderType {
+	float: middle;
+	padding: 10px 20px;
+  margin: 2px 0;
+   width: 60%;
+  box-sizing: border-box;
+}
+
+input[type=stext] {
+  width: 50%;
+  padding: 12px 25px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.thip{
+	border-style: solid;
+	padding: 10px 18px;
+	text-align: left;
+}
+
+.fourp{
+	border-style: solid;
+	padding: 10px 18px;
+	text-align: left;
+}
+
+.search {
+	 font-size: 25px;
+  font-weight: bold;
+  font-family:  Times New Roman;
+  text-decoration: none;
+}
+
+.survey {
+	background-color:white;
+	 font-size: 25px;
+  font-weight: bold;
+  font-family:  Times New Roman;
+  text-decoration: none;
+}
+
+.contactSQL {
+	background-color:white;
+	 font-size: 25px;
+  font-weight: bold;
+  font-family:  Times New Roman;
+  text-decoration: none;
+}
+.p1 {
+	text-decoration: none;
+	font-size: 55px;
+}
+
+.foot {
+	font-size: 17px;
+	text-align: center;
+  font-weight: bold;
+}
+
+.topnav {
+	color: black;
+  overflow: hidden;
+  border-style: solid;
+  background-color: white;
+  width: 99.6%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 0px;
+
+  text-decoration: none;
+  font-size: 38px;
+  flex: 1 1 auto;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #FFD700;
+  color: black;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* unvisited link */
+a:link {
+	text-decoration: none;
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+	text-decoration: none;
+  color: black;
+}
+a:visited {
+	color: black;
+	}
+	
+/* selected link */
+a:active {
+	text-decoration: none;
+  color: black;
+}
+
+.adminNav  {
+	color: black;
+  overflow: hidden;
+  border-style: solid;
+  background-color: white;
+  height: 100%;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.adminNav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 0px;
+
+  text-decoration: none;
+  font-size: 38px;
+  flex: 1 1 auto;
+}
+
+.adminNav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.adminNav a.active {
+  background-color: #FFD700;
+  color: black;
+  text-decoration: none;
+}
+
+
+input[type=text], select, textarea {
+  width: 20%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #FFD700;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  width: 150px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #FFD700;
+}
+
+.container {
+  border-radius: 2px;
+  background-color: white;
+}
+
+.surveyHead{
+
+        /*
+        height: 20px;
+        border-bottom: 2px solid;
+        display:inline-block;
+        */
+
+        text-decoration: underline;
+        text-decoration-color: #FFC360;
+
+
+}
+
+.survey{
+        border-style: solid;
+        /*border-color: #FFC420;*/
+        padding: 10px 18px;
+        text-align: left;
+        background-color: transparent;
+
+}
+
+.background{
+        background-color: transparent;
+        font-size: 25px;
+  font-weight: bold;
+  font-family:  Times New Roman;
+   text-decoration: none;
+}
+
+.userTable { border: 5px
+   solid black;
+  
+    width: 100%;
+}
+
+.userTab {
+        
+}
+
+.userData {
+  text-align: center;
+}
+
+.adminHome {
+  padding: 15px 32px;
+}
+
+.box{
+  height: auto;
+  width: 70%;
+  background-color: white;
+  position: absolute;
+  left: 350px;
+  top:208px;
+  text-align: center;
+  padding: 2%;
+}
+
+label {
+
+}
+
+.deleteheader {
+
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Times New Roman; 
+  text-align: center;
+  background-color: white;
+  padding: 3px;
+  width: 500px;
+  border-style: solid;
+  margin: auto;
+  
+}
+
+.deleteMember {
+
+  font-size: 15px;
+  font-weight: normal;
+  font-family: Times New Roman; 
+  text-align: center;
+  background-color: white;
+  flex-grow: 1;
+  float: center;
+  padding: 5px;
+  width: 500px;
+  border-style: solid; 
+  margin: auto;
+  display:none;
+
+}
+
+.deleteClub {
+
+  font-size: 15px;
+  font-weight: normal;
+  font-family: Times New Roman; 
+  text-align: center;
+  background-color: white;
+  flex-grow: 1;
+  float: center;
+  padding: 5px;
+  width: 500px;
+  border-style: solid; 
+  margin: auto;
+  display:none;
+
+}
+
+b{
+	border: 2px solid black;
+	padding: 5px;
+}
+b:hover{
+	background-color: white;
+}
+b.active{
+	background-color: maroon;
+  color:white;
+}
+.upClub{
+	display:none;
+}
+
+.upMem{
+	display:none;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.right {
+	text-align: right;
+	margin: 10px;
+}
+
+.left{
+	text-align: left;
+}
+
+.check {
+  color: maroon;
+}
